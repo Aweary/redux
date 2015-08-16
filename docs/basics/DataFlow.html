@@ -782,7 +782,7 @@
    visibleTodoFilter: nextVisibleTodoFilter
  };
 </code></pre>
-<p>While <a href="../api/combineReducers.html"><code>combineReducers()</code></a> is a handy helper utility, but you don&#x2019;t have to use it; feel free to write your own root reducer!</p>
+<p>While <a href="../api/combineReducers.html"><code>combineReducers()</code></a> is a handy helper utility, you don&#x2019;t have to use it; feel free to write your own root reducer!</p>
 </li>
 <li><p><strong>The Redux store saves the complete state tree returned by the root reducer.</strong></p>
 <p>This new tree is now the next state of your app! Every listener registered with <a href="../api/Store.html#subscribe"><code>store.subscribe(listener)</code></a> will now be invoked; listeners may call <a href="../api/Store.html#getState"><code>store.getState()</code></a> to get the current state.</p>
